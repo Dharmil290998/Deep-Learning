@@ -17,7 +17,7 @@ This project aims to classify images into five categories: **inside**, **outside
 - **`streamlit_app.py`**: This file includes the Streamlit frontend, allowing users to upload images and get predictions from the model.
 - **`Question-4.mp4`**: A video demonstrating the functionality of the deployed model, showing how the model performs predictions in real-time via the Streamlit interface.
 
-## How to Run the Project
+How to Run the Project
 
 1. Clone the Repository
 ```bash
