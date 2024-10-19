@@ -21,5 +21,67 @@ This project aims to classify images into five categories: **inside**, **outside
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/.git
-cd your-repo-name
+git clone https://github.com/Dharmil290998/Deep-Learning.git
+cd Deep-Learning
+
+
+### 2. Install Dependencies
+Make sure you have Python installed and set up. You can install the required dependencies using the requirements.txt file.
+
+bash
+Copy code
+pip install -r requirements.txt
+
+### 3. Run the Flask API
+To start the Flask server, navigate to the directory and run the following command:
+
+bash
+Copy code
+python app.py
+The API will start running locally on http://localhost:5000.
+
+### 4. Run the Streamlit Frontend
+In a new terminal, navigate to the project directory and run:
+
+bash
+Copy code
+streamlit run streamlit_app.py
+The Streamlit application will open in your browser, and you can upload an image to get a prediction.
+
+Model Development
+Dataset
+The dataset consists of labeled images across five categories: inside, outside, food, drink, and menu. The images were preprocessed to resize them to a standard shape and normalized for optimal training.
+
+DNN Model
+A deep neural network was designed using Keras and TensorFlow, with the following architecture:
+
+Multiple convolutional layers to extract features.
+Dense layers for classification.
+Softmax activation for the final output layer, producing probabilities for each of the five classes.
+Model Performance
+The model was trained using cross-entropy loss and evaluated on a validation set. Key performance metrics include:
+
+Accuracy: 81%
+Confusion Matrix
+
+AUC-ROC Curve
+
+
+Hyperparameter Tuning
+
+
+To optimize performance, several rounds of hyperparameter tuning were performed, adjusting parameters like learning rate, batch size, and the number of epochs.
+
+Deployment
+Flask API: The trained model is loaded in app.py, where Flask serves the predictions as a RESTful API.
+Streamlit Frontend: The web interface in streamlit_app.py allows users to upload an image, which is sent to the Flask API for classification.
+Usage
+Upload an image through the Streamlit interface, and the system will classify it as one of the five categories. The result, along with the probability scores for each class, will be displayed on the page.
+
+Video Demo
+A demonstration of the full functionality is provided in the Question-4.mp4 video, showing the step-by-step process of using the Streamlit frontend to classify images.
+
+Future Improvements
+Model Tuning: Further optimization of the DNN model's architecture and hyperparameters could improve accuracy.
+Scalability: Deploy the model to a cloud platform for wider accessibility.
+Additional Features: Add more classes and labels to improve the versatility of the image classifier.
