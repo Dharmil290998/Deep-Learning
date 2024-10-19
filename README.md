@@ -64,9 +64,9 @@ The model was trained using cross-entropy loss and evaluated on a validation set
 * Accuracy: 81%
 <img src="https://github.com/Dharmil290998/Deep-Learning/blob/main/Images/Classification%20Report.png">
 * Confusion Matrix
-<img src="https://github.com/Dharmil290998/Deep-Learning/blob/main/Images/Confusion%20Matrix.png" alt="Confusion Matrix" width="500" height="600"> 
+<img src="https://github.com/Dharmil290998/Deep-Learning/blob/main/Images/Confusion%20Matrix.png"> 
 * AUC-ROC Curve
-<img src="https://github.com/Dharmil290998/Deep-Learning/blob/main/Images/AUC-ROC%20Curve.png" alt="AUC-ROC Curve" width="500" height="600"> 
+<img src="https://github.com/Dharmil290998/Deep-Learning/blob/main/Images/AUC-ROC%20Curve.png"> 
 
 # Hyperparameter Tuning
 To optimize performance, several rounds of hyperparameter tuning were performed, adjusting parameters like learning rate, batch size, and the number of epochs.
