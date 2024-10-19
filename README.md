@@ -62,7 +62,7 @@ Model Performance
 The model was trained using cross-entropy loss and evaluated on a validation set. Key performance metrics include:
 
 * Accuracy: 81%
-<img src="https://github.com/Dharmil290998/Deep-Learning/blob/main/Images/Classification%20Report.png" alt="Classification Report" width="500" height="600">
+<img src="https://github.com/Dharmil290998/Deep-Learning/blob/main/Images/Classification%20Report.png">
 * Confusion Matrix
 <img src="https://github.com/Dharmil290998/Deep-Learning/blob/main/Images/Confusion%20Matrix.png" alt="Confusion Matrix" width="500" height="600"> 
 * AUC-ROC Curve
