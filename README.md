@@ -61,27 +61,27 @@ Softmax activation for the final output layer, producing probabilities for each 
 Model Performance
 The model was trained using cross-entropy loss and evaluated on a validation set. Key performance metrics include:
 
-Accuracy: 81%
-Confusion Matrix
+* Accuracy: 81%
+<img src="https://github.com/Dharmil290998/Deep-Learning/blob/main/Images/Classification%20Report.png" alt="Classification Report" width="500" height="600">
+* Confusion Matrix
+<img src="https://github.com/Dharmil290998/Deep-Learning/blob/main/Images/Confusion%20Matrix.png" alt="Confusion Matrix" width="500" height="600"> 
+* AUC-ROC Curve
+<img src="https://github.com/Dharmil290998/Deep-Learning/blob/main/Images/AUC-ROC%20Curve.png" alt="AUC-ROC Curve" width="500" height="600"> 
 
-AUC-ROC Curve
-
-
-Hyperparameter Tuning
-
-
+# Hyperparameter Tuning
 To optimize performance, several rounds of hyperparameter tuning were performed, adjusting parameters like learning rate, batch size, and the number of epochs.
 
-Deployment
+# Deployment
 Flask API: The trained model is loaded in app.py, where Flask serves the predictions as a RESTful API.
 Streamlit Frontend: The web interface in streamlit_app.py allows users to upload an image, which is sent to the Flask API for classification.
-Usage
+
+# Usage
 Upload an image through the Streamlit interface, and the system will classify it as one of the five categories. The result, along with the probability scores for each class, will be displayed on the page.
 
-Video Demo
+# Video Demo
 A demonstration of the full functionality is provided in the Question-4.mp4 video, showing the step-by-step process of using the Streamlit frontend to classify images.
 
-Future Improvements
-Model Tuning: Further optimization of the DNN model's architecture and hyperparameters could improve accuracy.
-Scalability: Deploy the model to a cloud platform for wider accessibility.
-Additional Features: Add more classes and labels to improve the versatility of the image classifier.
+# Future Improvements
+* Model Tuning: Further optimization of the DNN model's architecture and hyperparameters could improve accuracy.
+* Scalability: Deploy the model to a cloud platform for wider accessibility.
+* Additional Features: Add more classes and labels to improve the versatility of the image classifier.
