@@ -20,7 +20,7 @@ This project aims to classify images into five categories: **inside**, **outside
 How to Run the Project
 
 1. Clone the Repository
-```bash
+
 git clone https://github.com/Dharmil290998/Deep-Learning.git
 cd Deep-Learning
 
