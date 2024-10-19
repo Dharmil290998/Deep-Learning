@@ -19,20 +19,20 @@ This project aims to classify images into five categories: **inside**, **outside
 
 How to Run the Project
 
-1. Clone the Repository
-
+## 1. Clone the Repository
+bash
 git clone https://github.com/Dharmil290998/Deep-Learning.git
 cd Deep-Learning
 
 
-2. Install Dependencies
+## 2. Install Dependencies
 Make sure you have Python installed and set up. You can install the required dependencies using the requirements.txt file.
 
 bash
 Copy code
 pip install -r requirements.txt
 
-3. Run the Flask API
+## 3. Run the Flask API
 To start the Flask server, navigate to the directory and run the following command:
 
 bash
@@ -40,7 +40,7 @@ Copy code
 python app.py
 The API will start running locally on http://localhost:5000.
 
-4. Run the Streamlit Frontend
+## 4. Run the Streamlit Frontend
 In a new terminal, navigate to the project directory and run:
 
 bash
@@ -48,11 +48,11 @@ Copy code
 streamlit run streamlit_app.py
 The Streamlit application will open in your browser, and you can upload an image to get a prediction.
 
-Model Development
+## Model Development
 Dataset
 The dataset consists of labeled images across five categories: inside, outside, food, drink, and menu. The images were preprocessed to resize them to a standard shape and normalized for optimal training.
 
-DNN Model
+## DNN Model
 A deep neural network was designed using Keras and TensorFlow, with the following architecture:
 
 Multiple convolutional layers to extract features.
